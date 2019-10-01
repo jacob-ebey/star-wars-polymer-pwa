@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "prpl-server --root build/ --host 0.0.0.0 --https-redirect --bot-proxy https://render-tron.appspot.com/render",
+    "dev": "prpl-server --root build/ --host 0.0.0.0 --bot-proxy https://render-tron.appspot.com/render"
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "prpl-server": "^1.4.0"
+  }
+}
